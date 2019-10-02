@@ -10,6 +10,8 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'devise-i18n', '~> 1.8', '>= 1.8.2'
 gem 'devise-bootstrap-views', '~> 1.1'
 
+gem 'stock_quote', '~> 3.0'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
