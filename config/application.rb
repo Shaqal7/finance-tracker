@@ -31,5 +31,6 @@ module FinanceTracker
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    Rails.application.config.action_controller.include_all_helpers = true
   end
 end
