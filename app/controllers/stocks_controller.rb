@@ -4,7 +4,8 @@ class StocksController < ApplicationController
       @stock = Stock.new_from_lookup(params[:stock])
       if @stock
         respond_to do |format|
-          format.js { render partial: 'users/result' }
+          format.js { render partial: 'users/result', stock: @stock }
+          #format.json { render :json => {:success => true, :html => (render_to_string 'users/result')} }
         end
         #render partial: 'users/result'
         #render 'users/my_portfolio'

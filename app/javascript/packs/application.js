@@ -4,6 +4,7 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
+require("jquery")
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
@@ -18,3 +19,14 @@ require("channels")
 import '../stylesheets/application'
 import './bootstrap_custom.js'
 
+// $(document).on('turbolinks:load', function() {
+//   $('#stock-lookup-form').on('ajax:complete', function(event, data, status){
+//     $('#results').html(data.responseText)
+//   })
+// })
+
+// $(document).ready(function(){
+//   $('#stock-lookup-form').on('ajax:complete', function(event, data, status){
+//     $('#results').html(data.responseText)
+//   })
+// })
