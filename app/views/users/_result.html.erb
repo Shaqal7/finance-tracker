@@ -1,7 +1,12 @@
+<div class="results-block">
+  <%= render 'layouts/shared/message' %>
+</div>
 <% if @stock %>
   <div class="card results-block">
-    <strong>Symbol: </strong><%= @stock.ticker %>
-    <strong>Name: </strong><%= @stock.name %>
-    <strong>Price: </strong><%= @stock.last_price %>
+    <div class="card-body">
+      <strong>Symbol: </strong><%= @stock.ticker %>
+      <strong>Name: </strong><%= @stock.name %>
+      <strong>Price: </strong><%= @stock.last_price %>
+    </div>
   </div>
 <% end %>
