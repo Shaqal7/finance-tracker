@@ -7,4 +7,8 @@ class UsersController < ApplicationController
   def my_friends
     @friendships = current_user.friends
   end
+
+  def search
+    puts params[:search_param]
+  end
 end
