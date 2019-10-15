@@ -1,8 +1,5 @@
 @import './bootstrap_custom.scss';
-$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
-
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/solid";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 .results-block {
   display: inline-block;
